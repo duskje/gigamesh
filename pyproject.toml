@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gigamesh"
+version = "0.1.0"
+description = ""
+authors = ["David Oscanoa"]
+license = "GPL2"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mido = "^1.3.0"
+python-rtmidi = "^1.5.7"
+alsa-midi = "^1.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
